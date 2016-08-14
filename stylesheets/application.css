@@ -2,9 +2,10 @@
 /*Log In Page (index.html)*/
 /*############################################################################*/
 body {
+  #009bde
   /*font-family: 'Open Sans', sans-serif;*/
   font-family: 'Varela', sans-serif;
-  background-color: #0086D9;
+  background-color: #009bde;
   width: 100%;
 }
 
@@ -30,7 +31,7 @@ body {
 
 #submit-button {
   color: white;
-  background-color: #0086D9;
+  background-color: #009bde;
   border: 2px solid white;
   border-radius: 3px;
   width: 100%;
@@ -48,7 +49,7 @@ body {
 .top-bar {
   text-align: center;
   padding: 25px 0 25px 0;
-  background-color: #0086D9;
+  background-color: #009bde;
 }
 
 .white-background h2 {
@@ -66,14 +67,14 @@ body {
 }
 
 .each-appointment {
-  border: 1px solid #0086D9;
+  border: 1px solid #009bde;
   margin: 0 25px 0px 25px;
 }
 
 .appointment-buttons input {
   font-size: 2em;
   color: white;
-  background-color: #0086D9;
+  background-color: #009bde;
   border: 2px solid white;
   border-radius: 3px;
   height: 75px;
@@ -102,7 +103,7 @@ body {
 
 .personal-display label{
   color: #BCBCBC;
-  color: #0086D9;
+  color: #009bde;
   font-size: 3em;
 }
 
@@ -113,7 +114,7 @@ body {
 .update-buttons input {
   font-size: 2em;
   color: white;
-  background-color: #0086D9;
+  background-color: #009bde;
   width: 70%;
   height: 75px;
   border: 2px solid white;
@@ -121,15 +122,15 @@ body {
 }
 
 #update-yes {
-  color: #0086D9;
-  border: 2px solid #0086D9;
+  color: #009bde;
+  border: 2px solid #009bde;
   border-radius: 3px;
   background-color: white;
 }
 
 #update-no {
-  color: #0086D9;
-  border: 2px solid #0086D9;
+  color: #009bde;
+  border: 2px solid #009bde;
   border-radius: 3px;
   background-color: white;
 }
@@ -154,7 +155,7 @@ body {
 .update-buttons input {
   font-size: 2em;
   color: white;
-  background-color: #0086D9;
+  background-color: #009bde;
   width: 70%;
   height: 75px;
   border: 2px solid white;
@@ -188,7 +189,7 @@ body {
 #form-button {
   font-size: 2em;
   color: white;
-  background-color: #0086D9;
+  background-color: #009bde;
   border-radius: 3px;
   height: 75px;
   width: 90%;
@@ -216,12 +217,12 @@ p {
 
 .upload-documents input {
   text-decoration: none;
-  color: #0086D9;
+  color: #009bde;
   font-size: 2em;
   background-color: white;
   width: 100%;
   height: 75px;
-  border: 1px solid #0086D9;
+  border: 1px solid #009bde;
   border-radius: 3px;
   margin: 25px 0 25px 0;
 }
@@ -229,7 +230,7 @@ p {
 #confirm-button {
   font-size: 2em;
   color: white;
-  background-color: #0086D9;
+  background-color: #009bde;
   border-radius: 3px;
   height: 75px;
   width: 90%;
@@ -257,7 +258,7 @@ p {
 .payment-options input {
   font-size: 2em;
   color: white;
-  background-color: #0086D9;
+  background-color: #009bde;
   width: 70%;
   height: 75px;
   border: 2px solid white;
@@ -267,7 +268,7 @@ p {
 
 .payment-options select {
   font-size: 2em;
-  color: #0086D9;
+  color: #009bde;
   background-color: white;
   width: 70%;
   height: 75px;
@@ -301,7 +302,7 @@ p {
   text-align: center;
   font-size: 2em;
   font-weight: 700;
-  color: #0086D9;
+  color: #009bde;
   background-color: white;
   width: 90%;
   margin:  100px 5% 0 5%;
