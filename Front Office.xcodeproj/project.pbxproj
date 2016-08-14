@@ -16,6 +16,9 @@
 		8883C6561D60113100984B78 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 8883C6541D60113000984B78 /* index.html */; };
 		8883C65B1D601EA400984B78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8883C65A1D601EA400984B78 /* Assets.xcassets */; };
 		8883C65D1D6026F500984B78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8883C65A1D601EA400984B78 /* Assets.xcassets */; };
+		88F9D1531D60339800089C28 /* javascripts in Resources */ = {isa = PBXBuildFile; fileRef = 88F9D1521D60339800089C28 /* javascripts */; };
+		88F9D15D1D60341200089C28 /* stylesheets in Resources */ = {isa = PBXBuildFile; fileRef = 88F9D15C1D60341200089C28 /* stylesheets */; };
+		88F9D1611D60343800089C28 /* views in Resources */ = {isa = PBXBuildFile; fileRef = 88F9D1601D60343800089C28 /* views */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,9 @@
 		8883C64B1D6008D000984B78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8883C6541D60113000984B78 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		8883C65A1D601EA400984B78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88F9D1521D60339800089C28 /* javascripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = javascripts; sourceTree = "<group>"; };
+		88F9D15C1D60341200089C28 /* stylesheets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = stylesheets; sourceTree = "<group>"; };
+		88F9D1601D60343800089C28 /* views */ = {isa = PBXFileReference; lastKnownFileType = folder; path = views; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +94,9 @@
 				8883C63D1D6008D000984B78 /* LaunchScreen.storyboard */,
 				8883C6541D60113000984B78 /* index.html */,
 				8883C6401D6008D000984B78 /* Info.plist */,
+				88F9D1521D60339800089C28 /* javascripts */,
+				88F9D15C1D60341200089C28 /* stylesheets */,
+				88F9D1601D60343800089C28 /* views */,
 			);
 			path = "Front Office";
 			sourceTree = "<group>";
@@ -186,6 +195,9 @@
 				8883C63F1D6008D000984B78 /* LaunchScreen.storyboard in Resources */,
 				8883C6551D60113100984B78 /* index.html in Resources */,
 				8883C65B1D601EA400984B78 /* Assets.xcassets in Resources */,
+				88F9D1531D60339800089C28 /* javascripts in Resources */,
+				88F9D1611D60343800089C28 /* views in Resources */,
+				88F9D15D1D60341200089C28 /* stylesheets in Resources */,
 				8883C63A1D6008D000984B78 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

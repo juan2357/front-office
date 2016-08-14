@@ -6,7 +6,7 @@ body {
   /*font-family: 'Open Sans', sans-serif;*/
   font-family: 'Varela', sans-serif;
   background-color: #009bde;
-  width: 100%;
+  width: 90vw;
 }
 
 .log-in {
@@ -14,8 +14,8 @@ body {
   font-size: 3em;
   font-weight: 700;
   color: white;
-  width: 50%;
-  margin: 50% auto 0 auto;
+  width: 100%;
+  margin: 40% auto;
 }
 
 .log-in label {
@@ -26,7 +26,8 @@ body {
   font-size: 1em;
   height: 75px;
   border-radius: 5px;
-  margin: 15px 0 25px 0;
+  margin: 3% auto;
+  width: 90%;
 }
 
 #submit-button {
@@ -35,7 +36,6 @@ body {
   border: 2px solid white;
   border-radius: 3px;
   width: 100%;
-  margin: 0px 0 0 -10px;
 }
 
 /*############################################################################*/
