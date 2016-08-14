@@ -2,9 +2,13 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/normalize.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/application.css">
   <title>CheckIn App</title>
 </head>
-<body>
+<body class='white-background'>
 
   <div class="top-bar">
     <img src="../assets/carecloud_logo.png" alt="Care Cloud Logo"/>
@@ -12,17 +16,17 @@
 
   <h2>UPLOAD DOCUMENTS</h2>
 
-  <span>IF YOU MADE CHANGES TO YOUR PERSONAL INFORMATION OR NEED TO UPDATE YOUR INSURANCE INFORMATION UPLOAD YOUR ID AND INSURANCE CARD</span>
+  <p>IF YOU MADE CHANGES TO YOUR PERSONAL INFORMATION OR NEED TO UPDATE YOUR INSURANCE INFORMATION UPLOAD YOUR ID AND INSURANCE CARD</p>
 
-  <br>
-  <a href="#">PHOTO ID</a>
-  <img src="../assets/carecloud_logo.png" alt="camera-icon"/>
-  <br>
-  <a href="#">INSURANCE CARD</a>
-  <img src="../assets/carecloud_logo.png" alt="camera-icon"/>
-  <br>
+  <div class="upload-documents">
+    <br>
+    <a href="#"><input type='button' value='PHOTO ID'></a>
+    <br>
+    <a href="#"><input type='button' value='INSURANCE CARD'></a>
+    <br>
+  </div>
 
-  <a href="payment.html"><input type="button" value="CONFIRM CHANGES"></a>
+  <a href="payment.html"><input id='confirm-button' type="button" value="CONFIRM CHANGES"></a>
 
 </body>
 </html>

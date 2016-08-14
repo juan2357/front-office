@@ -2,6 +2,10 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/normalize.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/application.css">
   <title>CheckIn App</title>
 </head>
 <body>
@@ -9,15 +13,25 @@
   <div class="payment">
     <span>YOU HAVE A CURRENT BALANCE OF:</span>
     <br>
-    <label for="balance"></label>
+    <label id='total-balance' for="balance">$123.45</label>
+    <br>
   </div>
 
 
   <div class="payment-options">
-    <a href="checkin_success.html"><label for="credit-card">xxxx xxxx xxxx xxxx</label></a>
+    <select>
+      <option value="card-one">VISA XXXX-XXXX-XXXX-1234</option>
+      <option value="card-two">MC XXXX-XXXX-XXXX-1234</option>
+    </select>
     <br>
-    <a href="checkin_frontdesk.html"><input type="button" value="DO NOT PAY"></a>
+    <a href="checkin_success.html"><input type="button" value="PAY TOTAL"></a>
+    <br>
+    <a href="checkin_success.html"><input type="button" value="PAY CO-PAY"></a>
+    <br>
+    <a href="checkin_success.html"><input type="button" value="PAY OTHER AMOUNT"></a>
+    <br>
+    <a href="checkin_frontdesk.html"><input type="button" value="PAY AT FRONT DESK"></a>
   </div>
-  
+
 </body>
 </html>
